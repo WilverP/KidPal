@@ -70,18 +70,21 @@ body {
    =================== */
 
 .header-container {
-    border-bottom: 20px solid #e44d26;
+    border-bottom: 20px solid #003087;
+    font-family: 'Oswald', sans-serif;
 }
 
 .footer-container,
 .main aside {
-    border-top: 20px solid #e44d26;
+    border-top: 20px solid #003087;
 }
 
 .header-container,
 .footer-container,
 .main aside {
-    background: #f16529;
+  background-image:
+    radial-gradient(circle at 0 0,#009cde,#003087);
+
 }
 
 .title {
@@ -108,7 +111,7 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #e44d26;
+    background: #4d9900;
 }
 
 nav a:hover,
